@@ -20,6 +20,7 @@ I design and ship **LLM-powered systems** — retrieval-augmented pipelines, mul
 |---|---|---|
 | **[ContextShield AI](https://github.com/manal-alsuwat/contextshield)** | Zero-LLM preprocessing layer that routes, redacts, and isolates prompt injection before a request reaches the model — **~60% fewer input tokens at equal accuracy** | Python · pytest |
 | **[ThreatHuntAI](https://github.com/manal-alsuwat/ThreatHunt-Agent)** | Explainable five-agent LLM pipeline that turns Windows event logs into evidence-grounded incident reports | Python · LLM agents · MITRE ATT&amp;CK |
+| **[DataLeak Retrieval Strategy Analyzer](https://github.com/manal-alsuwat/DataLeak_Retrieval_Strategy_Analyzer)** | Hybrid-retrieval RAG over Saudi data-protection documents: semantic search + BM25, Cross-Encoder reranking, and answers cited to the exact article and page | PyMuPDF · rank-bm25 · Cross-Encoder · Streamlit |
 | **[Secure RAG Sales Agent](https://github.com/manal-alsuwat/RAG_Sales_Agent)** | Retrieval-augmented assistant guarded by an LLM-as-a-Judge layer against prompt injection and jailbreaks | LangChain · ChromaDB · Hugging Face |
 
 ## 🧰 Tech stack
@@ -33,6 +34,7 @@ I design and ship **LLM-powered systems** — retrieval-augmented pipelines, mul
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain">
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face">
   <img src="https://img.shields.io/badge/ChromaDB-7a1f3d?style=flat-square" alt="ChromaDB">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
   <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
